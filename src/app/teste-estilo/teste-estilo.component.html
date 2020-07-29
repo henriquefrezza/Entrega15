@@ -1,0 +1,11 @@
+<div>
+    <div [ngStyle]="{'padding': '20px', 'text-align': 'center', 'border': '2px solid black' }">
+        <p>Teste Estilos</p>
+    </div>
+    <div [ngStyle]="obterEstilos()">    
+        <p>Estilos Funcionando!</p>
+    </div>
+    <div [ngClass]="obterClasse()">
+        <p>Estilo Aplicado com ngClass</p>
+    </div>
+</div>

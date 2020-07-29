@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fatec-ipi-sabado-css-forms';
+  
+
+  pessoas = []
+  
+  onAdicionarPessoa(pessoa) {
+    this.pessoas = [pessoa, ...this.pessoas];
+  }
 }

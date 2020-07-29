@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fatec-ipi-sabado-css-forms"
+    }
+  },
+  "defaultProject": "fatec-ipi-sabado-css-forms",
+  "cli": {
+    "analytics": false
+  }
 }
